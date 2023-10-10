@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    border: 0;
+    font-size: 18px;
+    background-color: #07a0c3;
+}
+.logo{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+    background-color: #01485f;
+}
+.logo img{
+    width: 140px;
+    margin-top: 20px;
+}
+h1{
+    font-size: 25px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    color: #fdf9ee;
+    font-weight: bold;
+}
+section{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.linha1{
+    display: flex;
+    flex-direction: column;
+}
+.linha1 a{
+    margin: 50px;
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #f0c808;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    box-shadow: 5px 3px 0px 5px #f0a608;
+}
+a:active{
+    background-color: #f0a608;
+    box-shadow: 5px 3px 0px 5px #f0a608;
+}
+.guia h1{
+    margin-left: 10px;
+    margin-bottom: 20px;
+    font-size: 45px;
+}
+.paragrafo{
+    text-align: center;
+    background-color: #01485f;
+    font-size: 25px;
+    color: #fdf9ee;
+}
+.paragrafo p{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.guia img{
+    max-width: calc(100% - 100px);
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.divisoria{
+    width: 100%;
+    height: 2px;
+    background-color: grey;
+}
